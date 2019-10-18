@@ -24,6 +24,10 @@ module.exports = {
             {
                 test: /src[/\\]assets/,
                 loader: 'arraybuffer-loader',
+                /*
+                 * This parameter prevents the arraybuffer-loader from loading css files. We want
+                 * the style-loader and css-loader to do the job. Does not work otherwise imho.
+                 */
                 exclude: /\.css$/
             },
             {
