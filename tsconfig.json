@@ -1,11 +1,11 @@
-//{
-//    "compilerOptions": {
-//        "module": "CommonJS",
-//        "target": "es6",
-//        "sourceMap": true,
-//        "baseUrl": "src"
-//    },
-//    "exclude": [
-//        "node_modules"
-//    ]
-//}
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "es6",
+        "sourceMap": true,
+        "baseUrl": "src"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
